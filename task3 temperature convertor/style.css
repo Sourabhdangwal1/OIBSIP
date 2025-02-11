@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Black Background */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Converter Box */
+.converter-container {
+    background: rgba(30, 30, 30, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+/* Title */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: cyan;
+}
+
+/* Input & Dropdown */
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Input Field */
+input {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid cyan;
+    text-align: center;
+}
+
+/* Dropdown */
+select {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid cyan;
+    text-align: center;
+}
+
+/* Convert Button */
+button {
+    background: cyan;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: lightblue;
+}
+
+/* Result Display */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    background: black;
+    width: 100%;
+    padding: 10px 0;
+}
